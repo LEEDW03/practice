@@ -25,3 +25,7 @@ markitdown path/to/file.pdf -o file.md
 ```
 
 Supported inputs: PDF, Word, PowerPoint, Excel, HTML, CSV, JSON, XML, ZIP, images (EXIF/OCR with an LLM), audio (transcription), EPub, and more.
+
+## Claude Code
+
+`.claude/skills/markitdown/SKILL.md` tells Claude Code to convert documents with MarkItDown on its own whenever a task needs their text.
